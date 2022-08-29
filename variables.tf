@@ -105,5 +105,6 @@ data "ibm_is_ssh_key" "sshkey" {
 
 variable "ssh_key_name" {
   description = "Name giving to public SSH key uploaded to IBM Cloud for VSI access"
+  default     = "wordpress-demo-key"
 }
 
